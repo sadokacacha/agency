@@ -1,0 +1,42 @@
+
+body{
+color: azure;
+}
+
+
+
+.hotel_container{
+padding: 20%;
+margin: auto;
+
+}
+
+
+img{
+
+    width: 500px;
+    height: auto;
+}
+
+
+.tn_hotel1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr  ;
+    gap: 50px;
+
+}
+
+.fa-heart{
+    padding: 20px;
+    font-size: 50px;
+}
+
+.fa-heart:active{
+    color: tomato;
+}
+
+.checked {
+    color: orange;
+  }
+

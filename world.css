@@ -1,0 +1,49 @@
+
+
+
+
+
+.client_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr  ;
+    color: aliceblue;
+    background-color: rgb(80, 30, 100);
+    gap: 20%;
+    margin: auto;
+    padding: 50px;
+
+    
+}
+
+.world{
+
+    color: aliceblue;
+    background-color: rgb(80, 30, 100);
+    gap: 20%;
+    margin: auto;
+    padding: 50px;  
+}
+h2{
+    color: azure;
+}
+
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+

@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    color:green ;
+    
+}
+
+
+
+main{
+    display: flex;
+    padding: 50px;
+    margin: auto;
+}
+
+img{
+    width: 70px;
+}

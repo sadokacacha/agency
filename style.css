@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;
+}
+
+header{
+    background-color: rgb(6, 0, 24);
+    padding: 20px;  
+    box-shadow: 10px 5px 5px rgb(141, 137, 137);
+}
+
+body{
+  background-color: rgb(6, 0, 24);  
+  color: rgb(115, 194, 194);
+}
+
+.nav{
+    display: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+}
+
+
+
+
+
+
+.nav button {
+    padding: 10px;
+    border: none;
+    margin: 10px;
+
+}
+
+.nav button:hover{
+   color: white; 
+   background-color: rgb(70, 16, 95);
+   box-shadow: 10px 5px 2px 1px rgba(196, 112, 230, 0.2) ;
+}
+
+.nav_icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    position: relative;
+    color: white;
+
+}
+
+.links{
+display: flex;
+justify-content: space-evenly;
+position: relative;
+margin: 10px;
+    
+}
+.links > a{
+color: aliceblue;
+ text-decoration: none;   
+}
+
+
+
+
+.book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    background-color:rgb(6, 0, 24) ;
+    position: relative;
+}
+
+.book input {
+    border: none;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+
+.fa-search{
+    padding: 25px;
+    background-color: rgb(97, 24, 165);
+    padding-left: 80px;
+    border-radius: 0 40% 40% 0;
+    transition: 0.6s;
+}
+
+.fa-search:hover{
+ color:wheat; 
+ background-color:rgb(153, 153, 236); 
+
+}
+
+
+
+.pub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 235, 219);
+    padding: 20px;
+
+    box-shadow: 10px 10px 10px 10px rgb(71, 69, 69);
+    gap: 10rem;
+}
+
+.pub img {
+    width: 25rem;
+    height:25rem;
+    border-radius: 50px;
+    display: flex;
+    
+}
+
+
+.food_pic   {
+    background-color: rgb(248, 248, 248);
+padding: 20px;
+box-shadow: 10px 10px 10px  rgb(98, 98, 98);
+
+}
+.nature_pic{
+    background-color: rgb(248, 248, 248); 
+    padding: 20px; 
+    box-shadow: 10px 10px 10px  rgb(98, 98, 98);}
+
+.romantic_pic{
+    background-color: rgb(248, 248, 248); 
+    padding: 20px;  
+    box-shadow: 10px 10px 10px  rgb(98, 98, 98);}
+
+
+.container{
+    margin: 50px;
+    padding: 80px;
+    background-color: rgb(80, 9, 102);
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr   ;
+    gap: 10%;
+    
+}
+
+.sign_up{
+    grid-row: 1/2;
+    background-color: white;
+
+
+}
+
+.popular_places{
+    grid-row:1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr  ; 
+      
+}
+
+.popular_places img{
+width: 30%;
+height: auto;
+height: auto;
+border-radius: 100%;
+}
+.asia{
+    grid-row: 1/2;
+    grid-column: 1/2; 
+}
+.europe{
+    grid-row: 1/2;
+    grid-column: 2/2; 
+}
+
+.russia{
+    grid-row: 2/2;
+    grid-column: 1/2;  
+}
+.usa{
+    grid-row: 2/2;
+    grid-column: 2/2;  
+}
+
+
+.contact{
+    background-color: rgb(45, 22, 116);
+    color: white;
+    padding: 50px;
+}
+
+footer{
+    background-color: rgba(204, 204, 204, 0.705);
+    padding: 50px;
+    
+}
